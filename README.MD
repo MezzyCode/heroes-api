@@ -49,8 +49,8 @@ A Node.js + Express + PostgreSQL (Supabase) project where users create heroes, w
 
 Clone Repo
 ```bash
-git clone https://github.com/yourname/coliseum-api.git
-cd coliseum-api
+git clone https://github.com/yourname/heroes-api.git
+cd heroes-api
 ```
 
 Install Dep
