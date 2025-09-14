@@ -1,0 +1,22 @@
+meta {
+  name: Edit Hero
+  type: http
+  seq: 6
+}
+
+put {
+  url: http://localhost:3000/heroes/:id
+  body: json
+  auth: inherit
+}
+
+params:path {
+  id: 1
+}
+
+body:json {
+  {
+    "name": "Arthurd",
+    "power": "Lumbago"
+  }
+}

@@ -1,0 +1,15 @@
+meta {
+  name: Delete Hero
+  type: http
+  seq: 7
+}
+
+delete {
+  url: http://localhost:3000/heroes/:id
+  body: none
+  auth: inherit
+}
+
+params:path {
+  id: 3
+}

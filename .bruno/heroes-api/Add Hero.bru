@@ -1,0 +1,18 @@
+meta {
+  name: Add Hero
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:3000/heroes
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "Bald",
+    "power": "Shiny"
+  }
+}

@@ -1,0 +1,11 @@
+meta {
+  name: Get Heroes
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:3000/heroes/mine
+  body: json
+  auth: inherit
+}
